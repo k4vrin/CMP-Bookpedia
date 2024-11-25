@@ -1,5 +1,5 @@
 [versions]
-agp = "8.5.2"
+agp = "8.7.2"
 android-compileSdk = "35"
 android-minSdk = "24"
 android-targetSdk = "35"
@@ -18,11 +18,12 @@ kotlinx-coroutines = "1.9.0"
 navigationCompose = "2.8.0-alpha10"
 kotlinSerialization = "1.7.3"
 koin = "4.0.0"
-ktor = "3.0.0"
-coil3 = "3.0.0-rc02"
-ksp = "2.0.20-1.0.24"
+ktor = "3.0.1"
+coil3 = "3.0.3"
+ksp = "2.0.21-1.0.28"
 sqlite = "2.5.0-alpha11"
 room = "2.7.0-alpha11"
+uiAndroid = "1.7.5"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -65,6 +66,7 @@ coil-mp = { module = "io.coil-kt.coil3:coil", version.ref = "coil3" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
+androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "uiAndroid" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
@@ -87,7 +89,7 @@ ktor = [
 coil = [
     "coil-compose",
     "coil-compose-core",
-    "coil-network-ktor2",
+    #    "coil-network-ktor2",
     "coil-network-ktor3",
     "coil-mp"
 ]
