@@ -1,4 +1,4 @@
-package com.plcoding.bookpedia.book.domain
+package com.plcoding.bookpedia.book.domain.model
 
 data class Book(
     val id: String,
@@ -6,10 +6,10 @@ data class Book(
     val thumbnailUrl: String,
     val authors: List<String>,
     val description: String?,
-    val language: List<String>,
+    val languages: List<String>,
     val publishedDate: String?,
     val averageRating: Double?,
     val ratingsCount: Int?,
     val numPages: Int?,
-    val numEditions: Int
+    val numEditions: Int,
 )

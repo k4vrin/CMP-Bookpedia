@@ -71,13 +71,13 @@ fun BookSearchBar(
             },
             singleLine = true,
             keyboardActions = KeyboardActions(
-                onSearch = {
+                onDone = {
                     onSearch()
                     defaultKeyboardAction(ImeAction.Search)
                 }
             ),
             keyboardOptions = KeyboardOptions(
-                imeAction = ImeAction.Search,
+                imeAction = ImeAction.Done,
                 keyboardType = KeyboardType.Text
             ),
             trailingIcon = {

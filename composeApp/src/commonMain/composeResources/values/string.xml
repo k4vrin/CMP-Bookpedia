@@ -6,4 +6,19 @@
     <string name="favorites">Favorites</string>
     <string name="no_search_results">Oops, there aren't any books matching your search query</string>
     <string name="no_favorites_books">You have no favorite books</string>
+    <string name="book_cover">Book cover</string>
+    <string name="rating">Rating</string>
+    <string name="pages">Pages</string>
+    <string name="languages">Languages</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="go_back">Go back</string>
+    <string name="description_unavailable">Description is unavailable.</string>
+    <string name="mark_as_favorite">Mark as favorite.</string>
+    <string name="remove_from_favorites">Remove from favorites.</string>
+    <string name="error_disk_full">Oops, there is not enough space on your device.</string>
+    <string name="error_unknown">Oops, something went wrong.</string>
+    <string name="error_request_timeout">The request timed out.</string>
+    <string name="error_no_internet_connection">Couldn't reach the server. Check your internet connection.</string>
+    <string name="error_too_many_requests">Your quota has been exceeded.</string>
+    <string name="error_serialization">Oops, couldn't parse the data.</string>
 </resources>
